@@ -1,0 +1,91 @@
+/* CSS kommentti*/
+body {
+    background-color: rgb(172, 171, 248);
+    }
+.navbar {
+    background-color: rgb(172, 171, 248);
+}
+/*.row {
+    position: static;
+}
+*/
+/* Tietoja meistä -sivun avatarit.*/
+.avatars {
+    max-width: 6em;
+    max-height: 6em;
+    float: left;
+}
+/* Kokeilu ilman floattia omassa sarakkeessaan olevalle avatarille.*/
+.avatars2 {
+    float: left;
+    max-width: 6em;
+    max-height: 6em;
+    display: block;
+}
+/*em1 sivulla olevan placeholderin tekstin säädöt*/
+.placeholderteksti {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+/* Allaoleva rajaa karusellikuvan leveyden suurilla leveyksillä jotta kuvasuhde pysyy järkevänä.*/
+#carouselcol {
+    max-width: 70em;
+}
+/* Allaoleva asettaa karusellin korkeuden*/
+.carousel-item {
+        max-height: 35em;
+        object-fit: scale-down;
+        object-position: 10em;
+}
+footer {
+    background-color: gainsboro;
+    text-align: center;
+}
+footer::after {
+    content: "Toni Pohjanheimo - Verkkosivujen kehittäminen";
+}
+/*Etusivujen thumbnailien koon kohtuullistaminen*/
+.img-thumbnail {
+    max-width: 6em;
+}
+/*sivujen täyterako*/
+.fillergap {
+    min-height: 1em;
+}
+/*6+6 columnien margin vasempaan reunaan*/
+.colmargin {
+    margin-left: 1em;
+}
+/*bootstrapräpellyssivujen taustavärejä ja rajoja:*/
+.xs_conf {
+    min-height: 1em;
+    background-color: rgb(225, 115, 90);
+    border-style: solid;
+}
+.sm_conf {
+    min-height: 1em;
+    background-color: aquamarine;
+    border-style: solid;
+}
+.md_conf {
+    min-height: 1em;
+    background-color: rgb(101, 54, 210);
+    border-style: solid;
+}
+.lg_conf {
+    min-height: 1em;
+    background-color: rgb(225, 115, 90);
+    border-style: solid;
+}
+.xl_conf {
+    min-height: 1em;
+    background-color: rgb(29, 241, 36);
+    border-style: solid;
+}
+.xxl_conf {
+    min-height: 1em;
+    background-color: rgb(232, 228, 32);
+    border-style: solid;
+}
+
